@@ -19,7 +19,7 @@
 .fist-page-container{
     width: 998px;
     height: 581px;
-    margin : 26px 45px 221px 221px;
+    margin : 26px 45px 0px 221px;
     /* margin-top: 26px;
     margin-left: 221px;
     margin-right: 221px;
@@ -60,4 +60,44 @@
     background-color: rgba(13, 19, 33, 1);
     font-weight: 600;
     font-size: medium;  
+}
+/* style second page  */
+.second-page-section{
+    border: 2px solid violet;
+    max-width: 1440px; 
+}
+.second-page-section-container{
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid rebeccapurple;
+    margin:80px 148px 0px 152px;
+}
+.second-page-container{
+    border: 2px solid blue;
+    margin: 80px 97px;
+    width: 946px;
+    height: 1235px;
+}
+.why-web-dev-container{
+    border: 2px solid violet;
+    width: 852px;
+    height: 115px;
+    margin: 0px 47px;
+}
+.why-web-dev-title{
+    border: 2px solid black;
+    width: 852px;
+    height: 39px;
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    color:rgba(13, 19, 33, 1);
+}
+.why-web-dev-text{
+    width: 852px;
+    height: 52px;
+    margin-top: 24px;
+    border: 2px solid palegreen;
+    color: rgba(13, 19, 33, 1);
+    text-align: center;
 }
