@@ -63,29 +63,25 @@
 }
 /* style second page  */
 .second-page-section{
-    border: 2px solid violet;
     max-width: 1440px; 
 }
 .second-page-section-container{
     width: 1140px;
     height: 1395px;
-    border: 2px solid rebeccapurple;
     margin:80px 148px 0px 152px;
+    background-color: #fafafb;
 }
 .second-page-container{
-    border: 2px solid blue;
     margin: 80px 97px;
     width: 946px;
     height: 1235px;
 }
 .why-web-dev-container{
-    border: 2px solid violet;
     width: 852px;
     height: 115px;
     margin: 0px 47px;
 }
 .why-web-dev-title{
-    border: 2px solid black;
     width: 852px;
     height: 39px;
     text-align: center;
@@ -97,7 +93,103 @@
     width: 852px;
     height: 52px;
     margin-top: 24px;
-    border: 2px solid palegreen;
     color: rgba(13, 19, 33, 1);
     text-align: center;
+}
+/* style second page parts */
+.i-will-do-coding-contianer{
+    height: 336px;
+    width: 946px;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    border-radius: 16px;
+    background-color: #ffff;
+}
+.i-will-do-coding-inen-text-div{
+    /* padding: 48px ; */
+    width: 477px;
+    height: 229px;
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+}
+.i-will-do-coding-iner-title{
+    width: 390px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: x-large;
+    font-weight: bold;
+    text-align: justify;
+}
+.i-will-do-coding-iner-text{
+    width : 468px;
+    height: 52px;
+    color :rgba(13, 19, 33, 1);
+    margin-top: 16px;
+}
+
+.i-will-do-coding-inen-image-div{
+    width: 274.17px;
+    height: 240px;
+}
+ /* share style learn more btn  */
+ .learn-more-btn a{
+    color: rgba(13, 19, 33, 1);
+    text-decoration: none;
+ }
+ .learn-more-btn{
+    height: 47px;
+    width: 171px;
+    border: 2px solid rgba(13, 19, 33, 1);
+    background-color: #ffff;
+    font-weight: 600;
+ }
+ .first-div-for-learn-btn{
+    margin-top: 32px;
+ }
+/* style mordern web section part */
+.mordern-web-system-contianer{
+    height: 336px;
+    width: 946px;
+    margin-top: 32px;
+    border-radius: 16px;
+    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.mordern-web-system-inen-image-div{
+    width: 240px ;
+    height: 240px;
+    margin-left: 48px;
+}
+.mordern-web-system-inen-text-div{
+    width: 477px;
+    height: 229px;
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+}
+.mordern-web-system-iner-title{
+    width: 477px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: x-large;
+    font-weight: bold;
+    text-align: justify;
+}
+.mordern-web-system-iner-text{
+    width : 468px;
+    height: 52px;
+    color :rgba(13, 19, 33, 1);
+    margin-top: 16px;
+}
+.second-div-for-learn-btn{
+    margin-top: 32px;
+}
+/* style second-page-last-section  */
+.i-will-do-coding-last-inen-image-div{
+    width: 240px;
+    height: 240px;
 }
