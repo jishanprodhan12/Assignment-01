@@ -321,7 +321,6 @@
 /* style support section  */
 .support-section{
     max-width: 1440px;
-    border: 2px solid violet;
 
 }
 .support-section-container{
@@ -332,6 +331,58 @@
     border-radius: 16px;
     background-image: url('../assets/handshake.jpg');
     background-position: center;
-    background-size: cover;
+    background-size: 150%;
     background-repeat: no-repeat;
+}
+.support-content{
+    margin: 64px 48px;
+    width: 1044px;
+    height: 185px;
+}
+.support-text-container{
+    width: 730px;
+    height: 104px;
+    margin: 0px 157px;
+}
+.support-text-title{
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+.support-description{
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    margin-top: 16px;
+}
+.input-and-submit{
+    width: 684px;
+    height: 57px;
+    margin: 24px 180px;
+    display: flex;
+    gap: 16px;
+}
+#search-area{
+    width:548px;
+    height: 57px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    color : black;
+}
+#submit-btn{
+    width: 120px;
+    height: 57px;
+    border: none;
+    border-radius: 8px;
+    color:black;
+    font-size: large;
+    font-weight: bold;
+}
+.footer-section{
+    max-width: 1440px;
+    border: 2px solid violet;
 }
