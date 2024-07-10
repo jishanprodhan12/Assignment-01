@@ -533,3 +533,15 @@
     display: flex;
     gap :24px;
 }
+.fb-icon:hover{
+    transform:scale(1.5)translateY(-3px) ;
+    filter: drop-shadow(1px 1px 10px red);
+}
+.git-icon:hover{
+    transform:scale(1.5)translateY(-3px) ;
+    filter: drop-shadow(1px 1px 10px gold);
+}
+.linkedin-icon:hover{
+    transform:scale(1.5)translateY(-3px) ;
+    filter: drop-shadow(1px 1px 10px red);
+}
