@@ -50,6 +50,9 @@
    justify-content: center;
    margin-top: 32px;
 }
+.first-page-btn-container a :hover{
+    background-color: green;
+}
 /* style for the button  */
 .btn-primary{
     border: none;
@@ -148,6 +151,10 @@
  }
  .first-div-for-learn-btn{
     margin-top: 32px;
+  
+ }
+ .learn-more-btn a:hover{
+   color : royalblue;
  }
 /* style mordern web section part */
 .mordern-web-system-contianer{
@@ -256,6 +263,7 @@
     height: 52px;
     margin:24px 47px;
     color: rgba(13, 19, 33, 1);
+    text-align: center;
 }
 .html-css-js-combining-container{
     margin-top: 48px;
@@ -317,7 +325,10 @@
 .ancor-learn-more , .ancor-learn-more a{ 
     margin-top: 24px ;
     color: black;
-}
+} 
+ a:hover{
+    color :red;
+ }
 /* style support section  */
 .support-section{
     max-width: 1440px;
@@ -333,6 +344,7 @@
     background-position: center;
     background-size: 150%;
     background-repeat: no-repeat;
+    display: flex;
 }
 .support-content{
     margin: 64px 48px;
@@ -362,6 +374,7 @@
     display: flex;
     gap: 16px;
 }
+
 #search-area{
     width:548px;
     height: 57px;
@@ -381,6 +394,9 @@
     color:black;
     font-size: large;
     font-weight: bold;
+}
+.input-and-submit  button:hover{
+    background-color: aqua;
 }
 /* style footer section */
 .footer-section{
