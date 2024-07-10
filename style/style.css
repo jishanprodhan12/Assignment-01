@@ -382,7 +382,31 @@
     font-size: large;
     font-weight: bold;
 }
+/* style footer section */
 .footer-section{
     max-width: 1440px;
-    border: 2px solid violet;
+    height: 100px;
+    background-color: #ebededd5;
+    padding-top: 32px ;
+    
+}
+.footer-container{
+    width: 1140px;
+    height: 36px;
+    margin: 32px 150px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer-commit{
+    width: 456px;
+    height: 23px;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+}
+.footer-icon-container{
+    display: flex;
+    gap :24px;
 }
