@@ -332,73 +332,86 @@
 /* style support section  */
 .support-section{
     max-width: 1440px;
-
+ 
 }
-.support-section-container{
-    border: 2px solid black;
+.second-last{
+
     width: 1140px;
     height: 313px;
-    margin: 41px 150px;
-    border-radius: 16px;
-    background-image: url('../assets/handshake.jpg');
-    background-position: center;
-    background-size: 150%;
-    background-repeat: no-repeat;
+    margin: 41px auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../assets/handshake.jpg');
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
 }
-.support-content{
-    margin: 64px 48px;
+   
+.second-last .content{
+
     width: 1044px;
     height: 185px;
-}
-.support-text-container{
-    width: 730px;
-    height: 104px;
-    margin: 0px 157px;
-}
-.support-text-title{
-    color: rgba(255, 255, 255, 1);
-    font-weight: bold;
-    font-size: x-large;
     text-align: center;
 }
-.support-description{
-    color: rgba(255, 255, 255, 1);
+.second-last .content h1{
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono", monospace;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
     text-align: center;
-    margin-top: 16px;
+    
 }
-.input-and-submit{
-    width: 684px;
+.second-last .content p{
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 15px;
+
+
+}
+.second-last .content input{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    background: rgb(255, 255, 255);
+    width: 548px;
     height: 57px;
-    margin: 24px 180px;
-    display: flex;
-    gap: 16px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.second-last .content button{
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    padding: 15px 20px 15px 20px;
+    background: rgb(255, 255, 255);
+    margin-top: 31px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
-#search-area{
-    width:548px;
-    height: 57px;
-    background-color: rgba(255, 255, 255, 1);
-    border: none;
-    border-radius: 8px;
-    padding-left: 20px;
-    padding-top: 19px;
-    padding-bottom: 19px;
-    color : black;
+.second-last .content button:hover{
+    background-color: green;
+    color: white;
 }
-#submit-btn{
-    width: 120px;
-    height: 57px;
-    border: none;
-    border-radius: 8px;
-    color:black;
-    font-size: large;
-    font-weight: bold;
-}
-.input-and-submit  button:hover{
-    background-color: aqua;
-}
-/* style footer section */
 .footer-section{
     max-width: 1440px;
     height: 100px;
