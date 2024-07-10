@@ -193,3 +193,145 @@
     width: 240px;
     height: 240px;
 }
+/* style third page  */
+.third-page-section{
+    max-width: 1440px;
+}
+.third-page-section-container{
+    width: 1140px;
+    height: 775px;
+    margin-top: 90px;
+    margin-left: 148px;
+    margin-right: 152px;
+}
+.my-inspiration-container{
+    width: 852px;
+    height: 113px;
+    margin: 0px 144px;
+}
+.my-inspiration-title{
+    color:rgba(13, 19, 33, 1);
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.my-inspiration-text{
+    margin-top: 24px;
+    color: rgba(13, 19, 33, 1);
+    text-align: center;
+}
+/* style third page video  */
+.third-page-video-container{
+    width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+    border-radius: 16px;
+}
+.third-page-video-container iframe{
+    margin: 32px;
+    border-radius: 16px;
+}
+/* style fourth page  */
+.fourth-page-section{
+    max-width: 1440px;
+}
+.fouth-page-section-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0px 150px;
+}
+.my-current-taget-container{
+    width: 946px;
+    height: 113px;
+    margin : 0px 97px;
+}
+.my-current-target-title{
+    color : rgba(13, 19, 33, 1.00);
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+}
+.my-current-target-text{
+    width: 852px;
+    height: 52px;
+    margin:24px 47px;
+    color: rgba(13, 19, 33, 1);
+}
+.html-css-js-combining-container{
+    margin-top: 48px;
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    justify-content: space-between;
+}
+.html-container{
+     width: 364px;
+     height: 299px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px ;
+
+}
+.html-contant-box{
+    width: 284px;
+    height: 219px;
+    margin: 40px;
+}
+.css-container{
+    width: 364px;
+    height: 299px;
+   background-color: rgba(0, 76, 232, 0.05);
+   border-radius: 16px ;
+}
+.css-contant-box{
+    width: 284px;
+    height: 219px;
+    margin: 40px;
+}
+.js-container{
+    width: 364px;
+    height: 299px;
+   background-color: rgba(255, 223, 0, 0.05);
+   border-radius: 16px ;
+}
+.js-contant-box{
+    width: 284px;
+    height: 219px;
+    margin: 40px;
+}
+.html-image img , .css-image img , .js-image img {
+    height: 56px;
+    width: 56px;
+}
+.html-title , .css-title ,.js-title{
+    margin-top: 24px;
+    font-size: large;
+    font-weight: bolder;
+    color: rgba(13, 19, 33, 1);
+}
+.html-text , .css-text ,.js-text{
+    margin-top: 24px;
+    font-size: small;
+    color: rgba(13, 19, 33, 1.00);
+    text-align: justify;
+}
+.ancor-learn-more , .ancor-learn-more a{ 
+    margin-top: 24px ;
+    color: black;
+}
+/* style support section  */
+.support-section{
+    max-width: 1440px;
+    border: 2px solid violet;
+
+}
+.support-section-container{
+    border: 2px solid black;
+    width: 1140px;
+    height: 313px;
+    margin: 41px 150px;
+    border-radius: 16px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
